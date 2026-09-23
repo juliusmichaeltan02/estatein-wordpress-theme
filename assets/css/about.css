@@ -1,0 +1,2167 @@
+/* =========================================================
+   ABOUT US — OUR JOURNEY
+========================================================= */
+
+.about-journey {
+    padding: 70px 0 90px;
+}
+
+
+/* ---------------------------------------------------------
+   Main two-column layout
+--------------------------------------------------------- */
+
+.about-journey__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 70px;
+    align-items: center;
+}
+
+
+/* ---------------------------------------------------------
+   Left content
+--------------------------------------------------------- */
+
+.about-journey__content {
+    min-width: 0;
+}
+
+
+/*
+ * IMPORTANT:
+ * The section decoration is inherited from main.css.
+ * Do not create another decoration style here.
+ */
+
+.about-journey__content .section-decoration {
+    margin-bottom: 18px;
+}
+
+
+.about-journey__content h1 {
+    margin: 0;
+
+    color: var(--color-text);
+    font-size: var(--font-section-title);
+    font-weight: var(--weight-semibold);
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+/* ---------------------------------------------------------
+   Description
+--------------------------------------------------------- */
+
+.about-journey__description {
+    max-width: 700px;
+
+    margin: 24px 0 38px;
+
+    color: var(--color-muted);
+
+    font-size: var(--font-body);
+    font-weight: var(--weight-regular);
+    line-height: 1.55;
+}
+
+
+/* ---------------------------------------------------------
+   Statistics
+--------------------------------------------------------- */
+
+.about-journey__stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+
+.about-journey__stat {
+    min-width: 0;
+
+    padding: 24px 20px;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+
+.about-journey__stat strong {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--color-text);
+
+    font-size: 28px;
+    font-weight: var(--weight-semibold);
+    line-height: 1.1;
+}
+
+
+.about-journey__stat span {
+    display: block;
+
+    color: var(--color-muted);
+
+    font-size: 16px;
+    font-weight: var(--weight-regular);
+    line-height: 1.3;
+}
+
+
+/* ---------------------------------------------------------
+   Right image
+--------------------------------------------------------- */
+
+.about-journey__visual {
+    width: 100%;
+
+    overflow: hidden;
+
+    background: var(--color-surface);
+
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+}
+
+
+.about-journey__visual img {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    object-fit: cover;
+}
+
+/* =========================================================
+   OUR VALUES
+========================================================= */
+
+.about-values {
+    padding: 70px 0 90px;
+}
+
+
+/* ---------------------------------------------------------
+   Main layout
+--------------------------------------------------------- */
+
+.about-values__layout {
+    display: grid;
+
+    grid-template-columns: minmax(300px, 0.65fr) minmax(0, 1.35fr);
+
+    gap: 70px;
+
+    align-items: center;
+}
+
+
+/* ---------------------------------------------------------
+   Left content
+--------------------------------------------------------- */
+
+.about-values__intro {
+    max-width: 500px;
+}
+
+
+.about-values__intro .section-decoration {
+    margin-bottom: 20px;
+}
+
+
+.about-values__intro h2 {
+    margin: 0 0 22px;
+
+    color: var(--color-text);
+
+    font-size: var(--font-section-title);
+    font-weight: var(--weight-semibold);
+
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+.about-values__intro p {
+    margin: 0;
+
+    color: var(--color-muted);
+
+    font-size: 18px;
+    font-weight: var(--weight-regular);
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   VALUES BOX
+========================================================= */
+
+.about-values__box {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    background: transparent;
+
+    border: 1px solid var(--color-border);
+
+    border-radius: 12px;
+
+    padding: 28px 36px;
+
+    box-shadow:
+        0 0 0 6px rgba(255, 255, 255, 0.015);
+}
+
+
+/* ---------------------------------------------------------
+   Individual value
+--------------------------------------------------------- */
+
+.about-value {
+    min-width: 0;
+
+    padding: 10px 20px 22px;
+}
+
+
+/* Vertical divider */
+
+.about-value:nth-child(odd) {
+    border-right: 1px solid var(--color-border);
+}
+
+
+/* Horizontal divider */
+
+.about-value:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--color-border);
+}
+
+
+/* ---------------------------------------------------------
+   Value title
+--------------------------------------------------------- */
+
+.about-value__title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 17px;
+}
+
+
+/* ---------------------------------------------------------
+   Icon
+--------------------------------------------------------- */
+
+.about-value__icon {
+    flex: 0 0 auto;
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #a77bff;
+
+    border: 1px solid var(--color-primary);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(112, 59, 247, 0.12) 0%,
+            rgba(112, 59, 247, 0.04) 50%,
+            transparent 72%
+        );
+
+    box-shadow:
+        0 0 0 7px rgba(112, 59, 247, 0.025);
+}
+
+
+.about-value__icon i {
+    font-size: 18px;
+}
+
+
+/* ---------------------------------------------------------
+   Value heading
+--------------------------------------------------------- */
+
+.about-value h3 {
+    margin: 0;
+
+    color: var(--color-text);
+
+    font-size: 18px;
+    font-weight: var(--weight-medium);
+
+    line-height: 1.3;
+}
+
+
+/* ---------------------------------------------------------
+   Value description
+--------------------------------------------------------- */
+
+.about-value p {
+    max-width: 360px;
+
+    margin: 0;
+
+    color: var(--color-muted);
+
+    font-size: 16px;
+    font-weight: var(--weight-regular);
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.about-value__icon {
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.about-value:hover .about-value__icon {
+    color: #ffffff;
+
+    background: var(--color-primary);
+
+    border-color: var(--color-primary);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .about-values {
+        padding: 60px 0 75px;
+    }
+
+
+    .about-values__layout {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+
+    .about-values__intro {
+        max-width: 760px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .about-values {
+        padding: 45px 0 60px;
+    }
+
+
+    .about-values__layout {
+        gap: 30px;
+    }
+
+
+    .about-values__intro h2 {
+        font-size: 32px;
+
+        letter-spacing: -0.5px;
+    }
+
+
+    .about-values__intro p {
+        font-size: 18px;
+    }
+
+
+    .about-values__box {
+        grid-template-columns: 1fr;
+
+        padding: 18px;
+    }
+
+
+    .about-value,
+    .about-value:nth-child(odd),
+    .about-value:nth-child(-n + 2) {
+        padding: 20px 10px;
+
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+    }
+
+
+    .about-value:last-child {
+        border-bottom: 0;
+    }
+
+
+    .about-value__title {
+        margin-bottom: 14px;
+    }
+
+
+    .about-value__icon {
+        width: 46px;
+        height: 46px;
+    }
+
+
+    .about-value p {
+        font-size: 16px;
+    }
+
+    .about-journey__visual img {
+        min-height: 310px;
+    }
+
+    .about-journey__visual {
+        margin-bottom: 30px;
+    }
+
+}
+
+/* =========================================================
+   OUR ACHIEVEMENTS
+========================================================= */
+
+.about-achievements {
+    padding: 70px 0 90px;
+}
+
+
+/* ---------------------------------------------------------
+   Section heading
+--------------------------------------------------------- */
+
+.about-achievements__heading {
+    max-width: 900px;
+
+    margin-bottom: 42px;
+}
+
+
+.about-achievements__heading .section-decoration {
+    margin-bottom: 18px;
+}
+
+
+.about-achievements__heading h2 {
+    margin: 0 0 20px;
+
+    color: var(--color-text);
+
+    font-size: var(--font-section-title);
+    font-weight: var(--weight-semibold);
+
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+.about-achievements__heading p {
+    max-width: 850px;
+
+    margin: 0;
+
+    color: var(--color-muted);
+
+    font-size: 18px;
+    font-weight: var(--weight-regular);
+
+    line-height: 1.55;
+}
+
+
+/* ---------------------------------------------------------
+   Achievement grid
+--------------------------------------------------------- */
+
+.about-achievements__grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   ACHIEVEMENT CARDS
+========================================================= */
+
+.achievement-card {
+    position: relative;
+
+    min-width: 0;
+
+    padding: 32px;
+
+    /*
+     * Same dark tone as the main section.
+     * The screenshot uses a very subtle contrast.
+     */
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-radius: 10px;
+
+    /*
+     * Creates the subtle raised/double-border effect
+     * visible in the Figma design.
+     */
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.018),
+        0 8px 24px rgba(0, 0, 0, 0.12);
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+/* ---------------------------------------------------------
+   Hover
+--------------------------------------------------------- */
+
+.achievement-card:hover {
+    border-color: #333333;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.025),
+        0 10px 28px rgba(0, 0, 0, 0.18);
+
+    transform: translateY(-2px);
+}
+
+
+/* ---------------------------------------------------------
+   Card title
+--------------------------------------------------------- */
+
+.achievement-card h3 {
+    margin: 0 0 18px;
+
+    color: #ffffff;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    line-height: 1.3;
+}
+
+
+/* ---------------------------------------------------------
+   Card description
+--------------------------------------------------------- */
+
+.achievement-card p {
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .about-achievements {
+        padding: 60px 0 75px;
+    }
+
+
+    .about-achievements__heading {
+        max-width: 760px;
+    }
+
+
+    .about-achievements__grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .about-achievements {
+        padding: 45px 0 60px;
+    }
+
+
+    .about-achievements__heading {
+        margin-bottom: 30px;
+    }
+
+
+    .about-achievements__heading h2 {
+        font-size: 32px;
+
+        letter-spacing: -0.5px;
+    }
+
+
+    .about-achievements__heading p {
+        font-size: 18px;
+    }
+
+
+    .about-achievements__grid {
+        gap: 14px;
+    }
+
+
+    .achievement-card {
+        padding: 24px;
+    }
+
+
+    .achievement-card h3 {
+        font-size: 20px;
+
+        margin-bottom: 14px;
+    }
+
+
+    .achievement-card p {
+        font-size: 16px;
+    }
+
+}
+
+/* =========================================================
+   NAVIGATING THE ESTATEIN EXPERIENCE
+========================================================= */
+
+.about-experience {
+    padding: 70px 0 90px;
+}
+
+
+/* ---------------------------------------------------------
+   Section heading
+--------------------------------------------------------- */
+
+.about-experience__heading {
+    max-width: 1050px;
+
+    margin-bottom: 48px;
+}
+
+
+.about-experience__heading .section-decoration {
+    margin-bottom: 18px;
+}
+
+
+.about-experience__heading h2 {
+    margin: 0 0 20px;
+
+    color: #ffffff;
+
+    font-size: 48px;
+    font-weight: 600;
+
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+.about-experience__heading p {
+    max-width: 1000px;
+
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   EXPERIENCE GRID
+========================================================= */
+
+.about-experience__grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+    column-gap: 20px;
+    row-gap: 32px;
+}
+
+
+/* =========================================================
+   EXPERIENCE CARD
+========================================================= */
+
+.experience-card {
+    position: relative;
+
+    min-width: 0;
+
+    padding-top: 0;
+}
+
+
+/* ---------------------------------------------------------
+   Step label
+--------------------------------------------------------- */
+
+.experience-card__step {
+	position: relative;
+	height: 40px;
+	display: flex;
+	align-items: flex-start;
+	padding: 0 12px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.3;
+	border-left: 2px solid #703bf759;
+	border-bottom: 1px solid #262626;
+}
+
+
+/* ---------------------------------------------------------
+   Main card
+--------------------------------------------------------- */
+
+.experience-card__content {
+    position: relative;
+
+    min-height: 170px;
+
+    padding: 34px 32px 30px;
+
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-top: 0;
+
+    border-radius: 0 0 9px 9px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.012),
+        0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ---------------------------------------------------------
+   Purple gradient inside card
+--------------------------------------------------------- */
+
+.experience-card__content::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 190px;
+    height: 150px;
+
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            circle at 0% 0%,
+            rgba(112, 59, 247, 0.25) 0%,
+            rgba(112, 59, 247, 0.14) 24%,
+            rgba(112, 59, 247, 0.05) 48%,
+            transparent 72%
+        );
+}
+
+
+/* ---------------------------------------------------------
+   Card title
+--------------------------------------------------------- */
+
+.experience-card h3 {
+    position: relative;
+
+    z-index: 1;
+
+    margin: 0 0 18px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 1.35;
+}
+
+
+/* ---------------------------------------------------------
+   Card description
+--------------------------------------------------------- */
+
+.experience-card p {
+    position: relative;
+
+    z-index: 1;
+
+    max-width: 360px;
+
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.experience-card__content {
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.experience-card:hover .experience-card__content {
+    border-color: #333333;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.018),
+        0 10px 28px rgba(0, 0, 0, 0.16);
+}
+
+
+.experience-card:hover .experience-card__step {
+    border-left-color: #8255f8;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .about-experience {
+        padding: 60px 0 75px;
+    }
+
+
+    .about-experience__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+
+    .about-experience__heading {
+        max-width: 760px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .about-experience {
+        padding: 45px 0 60px;
+    }
+
+
+    .about-experience__heading {
+        margin-bottom: 32px;
+    }
+
+
+    .about-experience__heading h2 {
+        font-size: 32px;
+
+        letter-spacing: -0.5px;
+    }
+
+
+    .about-experience__heading p {
+        font-size: 18px;
+    }
+
+
+    .about-experience__grid {
+        grid-template-columns: 1fr;
+
+        row-gap: 24px;
+    }
+
+
+    .experience-card__step {
+        height: 38px;
+
+        font-size: 15px;
+    }
+
+
+    .experience-card__content {
+        min-height: auto;
+
+        padding: 28px 24px 26px;
+    }
+
+
+    .experience-card h3 {
+        font-size: 18px;
+    }
+
+
+    .experience-card p {
+        font-size: 16px;
+    }
+
+}
+
+/* =========================================================
+   MEET THE ESTATEIN TEAM
+========================================================= */
+
+.about-team {
+    padding: 70px 0 90px;
+}
+
+
+/* =========================================================
+   SECTION HEADING
+========================================================= */
+
+.about-team__heading {
+    max-width: 1100px;
+
+    margin-bottom: 48px;
+}
+
+
+.about-team__heading .section-decoration {
+    margin-bottom: 18px;
+}
+
+
+.about-team__heading h2 {
+    margin: 0 0 20px;
+
+    color: #ffffff;
+
+    font-size: 48px;
+    font-weight: 600;
+
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+.about-team__heading p {
+    max-width: 1100px;
+
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   TEAM GRID
+========================================================= */
+
+.about-team__grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+
+/* =========================================================
+   TEAM CARD
+========================================================= */
+
+.team-card {
+    position: relative;
+
+    min-width: 0;
+
+    padding: 20px 20px 18px;
+
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.012),
+        0 8px 24px rgba(0, 0, 0, 0.10);
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.team-card:hover {
+    border-color: #333333;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.018),
+        0 12px 28px rgba(0, 0, 0, 0.16);
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   TEAM IMAGE
+========================================================= */
+
+.team-card__image {
+    position: relative;
+
+    width: 100%;
+
+    overflow: visible;
+}
+
+
+.team-card__image img {
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 1 / 0.92;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+
+/* =========================================================
+   TWITTER BUTTON
+========================================================= */
+
+.team-card__social {
+    position: absolute;
+
+    left: 50%;
+    bottom: -17px;
+
+    transform: translateX(-50%);
+
+    width: 48px;
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    background: #703BF7;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.25);
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.team-card__social i {
+    font-size: 15px;
+}
+
+
+.team-card__social:hover {
+    background: #8255f8;
+
+    transform: translateX(-50%) translateY(-2px);
+}
+
+
+/* =========================================================
+   TEAM INFO
+========================================================= */
+
+.team-card__info {
+    text-align: center;
+
+    padding-top: 30px;
+}
+
+
+.team-card__info h3 {
+    margin: 0 0 4px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    line-height: 1.35;
+}
+
+
+.team-card__info p {
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.4;
+}
+
+
+/* =========================================================
+   CONTACT / SAY HELLO
+========================================================= */
+
+.team-card__contact {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    width: 100%;
+
+    min-height: 46px;
+
+    margin-top: 18px;
+
+    padding: 6px 7px 6px 14px;
+
+    color: #ffffff;
+
+    background: #171717;
+
+    border: 1px solid #262626;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    transition:
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+
+.team-card__contact:hover {
+    background: #1c1c1c;
+
+    border-color: #3a3a3a;
+}
+
+
+/* =========================================================
+   SEND ICON
+========================================================= */
+
+.team-card__contact-icon {
+    flex: 0 0 auto;
+
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: #ffffff;
+
+    background: #703BF7;
+
+    border-radius: 50%;
+
+    transition:
+        background-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+
+.team-card__contact-icon i {
+    font-size: 13px;
+}
+
+
+.team-card__contact:hover .team-card__contact-icon {
+    background: #8255f8;
+
+    transform: translateX(2px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .about-team {
+        padding: 60px 0 75px;
+    }
+
+
+    .about-team__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .about-team {
+        padding: 45px 0 60px;
+    }
+
+
+    .about-team__heading {
+        margin-bottom: 32px;
+    }
+
+
+    .about-team__heading h2 {
+        font-size: 32px;
+
+        letter-spacing: -0.5px;
+    }
+
+
+    .about-team__heading p {
+        font-size: 18px;
+    }
+
+
+    .about-team__grid {
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+    }
+
+
+    .team-card {
+        padding: 16px;
+    }
+
+
+    .team-card__info h3 {
+        font-size: 18px;
+    }
+
+
+    .team-card__info p {
+        font-size: 14px;
+    }
+
+}
+
+/* =========================================================
+   OUR VALUED CLIENTS
+========================================================= */
+
+.about-clients {
+    padding: 70px 0 90px;
+}
+
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.about-clients__heading {
+    margin-bottom: 45px;
+}
+
+
+.about-clients__heading .section-decoration {
+    margin-bottom: 18px;
+}
+
+
+.about-clients__heading h2 {
+    margin: 0 0 20px;
+
+    color: #ffffff;
+
+    font-size: 48px;
+    font-weight: 600;
+
+    line-height: 1.15;
+    letter-spacing: -1px;
+}
+
+
+.about-clients__heading p {
+    max-width: 1100px;
+
+    margin: 0;
+
+    color: #999999;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   CAROUSEL
+========================================================= */
+
+.clients-carousel {
+    width: 100%;
+}
+
+
+.clients-carousel__viewport {
+    width: 100%;
+
+    overflow: hidden;
+}
+
+
+.clients-carousel__track {
+    display: flex;
+
+    gap: 24px;
+
+    width: 100%;
+
+    transition: transform 0.45s ease;
+
+    will-change: transform;
+}
+
+
+/* =========================================================
+   CLIENT CARD
+========================================================= */
+
+.client-card {
+    flex: 0 0 calc((100% - 24px) / 2);
+
+    min-width: 0;
+
+    padding: 36px 32px 32px;
+
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 0 0 5px rgba(255, 255, 255, 0.012),
+        0 8px 24px rgba(0, 0, 0, 0.10);
+}
+
+
+/* =========================================================
+   CARD HEADER
+========================================================= */
+
+.client-card__header {
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 24px;
+
+    margin-bottom: 30px;
+}
+
+
+.client-card__year {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #999999;
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.client-card__header h3 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================================
+   WEBSITE BUTTON
+========================================================= */
+
+.client-card__website {
+    flex: 0 0 auto;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 42px;
+
+    padding: 0 16px;
+
+    color: #ffffff;
+
+    background: #1a1a1a;
+
+    border: 1px solid #262626;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    text-decoration: none;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+.client-card__website:hover {
+    background: #222222;
+
+    border-color: #3a3a3a;
+}
+
+
+/* =========================================================
+   DETAILS
+========================================================= */
+
+.client-card__details {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    margin-bottom: 28px;
+}
+
+
+.client-card__detail {
+    min-width: 0;
+
+    padding-right: 20px;
+}
+
+
+.client-card__detail + .client-card__detail {
+    padding-left: 20px;
+
+    border-left: 1px solid #262626;
+}
+
+
+.client-card__detail-label {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    margin-bottom: 8px;
+
+    color: #999999;
+
+    font-size: 14px;
+}
+
+
+.client-card__detail-label i {
+    font-size: 12px;
+}
+
+
+.client-card__detail strong {
+    display: block;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.45;
+}
+
+
+/* =========================================================
+   TESTIMONIAL
+========================================================= */
+
+.client-card__testimonial {
+    padding: 20px;
+
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-radius: 10px;
+}
+
+
+.client-card__testimonial-label {
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: #999999;
+
+    font-size: 14px;
+}
+
+
+.client-card__testimonial p {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    line-height: 1.55;
+}
+
+
+/* =========================================================
+   PAGINATION
+========================================================= */
+
+.clients-pagination {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 30px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #262626;
+}
+
+
+.clients-pagination__count {
+    color: #999999;
+
+    font-size: 14px;
+}
+
+
+.clients-pagination__current {
+    color: #ffffff;
+}
+
+
+/* =========================================================
+   PAGINATION ARROWS
+========================================================= */
+
+.clients-pagination__arrows {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+}
+
+
+.clients-pagination__arrows button {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    color: #ffffff;
+
+    background: #141414;
+
+    border: 1px solid #262626;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        opacity 0.2s ease;
+}
+
+
+.clients-pagination__arrows button:hover:not(:disabled) {
+    background: #1f1f1f;
+
+    border-color: #3a3a3a;
+}
+
+
+.clients-pagination__arrows button:disabled {
+    opacity: 0.35;
+
+    cursor: not-allowed;
+}
+
+
+.clients-pagination__arrows i {
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .client-card {
+        flex: 0 0 100%;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .about-clients {
+        padding: 50px 0 65px;
+    }
+
+
+    .about-clients__heading {
+        margin-bottom: 30px;
+    }
+
+
+    .about-clients__heading h2 {
+        font-size: 32px;
+
+        letter-spacing: -0.5px;
+    }
+
+
+    .about-clients__heading p {
+        font-size: 18px;
+    }
+
+
+    .client-card {
+        padding: 24px 20px 20px;
+    }
+
+
+    .client-card__header {
+        gap: 16px;
+    }
+
+
+    .client-card__header h3 {
+        font-size: 20px;
+    }
+
+
+    .client-card__website {
+        font-size: 13px;
+
+        min-height: 38px;
+
+        padding: 0 12px;
+    }
+
+
+    .client-card__details {
+        grid-template-columns: 1fr;
+
+        gap: 18px;
+    }
+
+
+    .client-card__detail {
+        padding-right: 0;
+    }
+
+
+    .client-card__detail + .client-card__detail {
+        padding-left: 0;
+
+        border-left: 0;
+    }
+
+}
+
+/* =========================================================
+   ABOUT - OUR JOURNEY
+   MOBILE LAYOUT
+========================================================= */
+
+@media (max-width: 767px) {
+
+    /* Main section */
+    .about-journey {
+        width: 100%;
+        padding: 45px 0 60px;
+    }
+
+
+    /*
+     * IMPORTANT:
+     * Turn the desktop two-column layout into
+     * a single vertical column.
+     */
+    .about-journey__inner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+
+    /* =====================================================
+       IMAGE
+    ===================================================== */
+
+    .about-journey__image {
+        order: 1;
+
+        width: 100%;
+        margin: 0 0 28px;
+    }
+
+
+    .about-journey__image img {
+        display: block;
+
+        width: 100%;
+        height: auto;
+
+        min-height: 0;
+
+        object-fit: cover;
+
+        border-radius: 10px;
+    }
+
+
+    /* =====================================================
+       CONTENT
+    ===================================================== */
+
+    .about-journey__content {
+        order: 2;
+
+        width: 100%;
+        max-width: none;
+
+        margin: 0;
+    }
+
+
+    /* =====================================================
+       SECTION DECORATION
+    ===================================================== */
+
+    .about-journey__content .section-decoration {
+        margin-bottom: 14px;
+    }
+
+
+    .about-journey__content .section-decoration img {
+        display: block;
+
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* =====================================================
+       TITLE
+    ===================================================== */
+
+    .about-journey__content h1,
+    .about-journey__content h2 {
+        width: 100%;
+        max-width: none;
+
+        margin: 0 0 18px;
+
+        color: #ffffff;
+
+        font-size: 32px;
+        font-weight: 600;
+
+        line-height: 1.2;
+        letter-spacing: -0.5px;
+    }
+
+
+    /* =====================================================
+       DESCRIPTION
+    ===================================================== */
+
+    .about-journey__content > p {
+        width: 100%;
+        max-width: none;
+
+        margin: 0;
+
+        color: #999999;
+
+        font-size: 18px;
+        font-weight: 400;
+
+        line-height: 1.55;
+    }
+
+
+    /* =====================================================
+       STATS
+    ===================================================== */
+
+    .about-journey__stats {
+        display: grid;
+
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        width: 100%;
+
+        gap: 12px;
+
+        margin-top: 30px;
+    }
+
+
+    .about-journey__stat {
+        width: 100%;
+        min-width: 0;
+
+        padding: 22px 12px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        background: #1a1a1a;
+
+        border: 1px solid #262626;
+
+        border-radius: 8px;
+
+        box-sizing: border-box;
+    }
+
+
+    .about-journey__stat h3 {
+        margin: 0 0 8px;
+
+        color: #ffffff;
+
+        font-size: 28px;
+        font-weight: 600;
+
+        line-height: 1.1;
+    }
+
+
+    .about-journey__stat p {
+        margin: 0;
+
+        color: #999999;
+
+        font-size: 14px;
+        font-weight: 400;
+
+        line-height: 1.35;
+    }
+
+
+    /*
+     * Third stat goes full width.
+     */
+    .about-journey__stat:last-child {
+        grid-column: 1 / -1;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .about-journey {
+        padding: 35px 0 50px;
+    }
+
+
+    .about-journey__image {
+        margin-bottom: 24px;
+    }
+
+
+    .about-journey__content h1,
+    .about-journey__content h2 {
+        font-size: 32px;
+    }
+
+
+    .about-journey__content > p {
+        font-size: 18px;
+        line-height: 1.55;
+    }
+
+
+    .about-journey__stats {
+        gap: 12px;
+
+        margin-top: 26px;
+    }
+
+
+    .about-journey__stat {
+        min-height: 82px;
+
+        padding: 18px 10px;
+    }
+
+
+    .about-journey__stat h3 {
+        font-size: 26px;
+    }
+
+
+    .about-journey__stat p {
+        font-size: 14px;
+    }
+
+}
+
+/* =========================================================
+   OUR VALUED CLIENTS
+   MOBILE PAGINATION
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .clients-pagination {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+
+        margin-top: 24px;
+        padding-top: 0;
+
+        border-top: 0;
+
+        min-height: 42px;
+    }
+
+
+    /* Counter - centered */
+    .clients-pagination__count {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        margin: 0;
+
+        color: #999999;
+
+        font-size: 14px;
+        font-weight: 400;
+
+        white-space: nowrap;
+    }
+
+
+    .clients-pagination__current {
+        color: #ffffff;
+    }
+
+
+    /* Arrow container fills the row */
+    .clients-pagination__arrows {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+
+    /* Circular arrows */
+    .clients-pagination__arrows button {
+        width: 40px;
+        height: 40px;
+
+        flex: 0 0 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+
+        background: #141414;
+
+        border: 1px solid #262626;
+
+        border-radius: 50%;
+
+        color: #999999;
+
+        font-size: 14px;
+
+        transition:
+            background-color 0.2s ease,
+            border-color 0.2s ease,
+            color 0.2s ease,
+            opacity 0.2s ease;
+    }
+
+
+    .clients-pagination__arrows button:hover:not(:disabled) {
+        background: #1f1f1f;
+
+        border-color: #3a3a3a;
+
+        color: #ffffff;
+    }
+
+
+    .clients-pagination__arrows button:disabled {
+        opacity: 0.35;
+
+        cursor: not-allowed;
+    }
+
+}
